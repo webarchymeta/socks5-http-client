@@ -13,7 +13,7 @@
 
 var assert = require('assert');
 var net = require('net');
-var socks = require('node-socks/socks.js');
+var socks = require('socks5-client/socks.js');
 var http = require('../');
 
 suite('socks5-http-client tests', function() {
